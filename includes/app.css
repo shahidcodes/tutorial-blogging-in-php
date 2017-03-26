@@ -1,0 +1,76 @@
+@media only screen and (max-width: 400px) {
+    .tut-nav{
+    	display: none;
+    }
+}
+
+div.page_header{
+	margin-top: 2%;
+	border: 1px solid black; 
+	border-radius: 2px;
+	text-align: center;
+}
+div.nav2 a{
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 2%;
+}
+div.nav2-float{
+	margin: 0 auto;
+	text-align: center;
+}
+div.post-body{
+	margin-top: 2%;
+}
+div.pb-right{
+	/*border-left: 1px solid green;*/ 
+}
+.big{
+	font-size: 5.2em;
+	padding-left: 5%;
+}
+.less-big{
+	font-size: 3.2em;
+	padding-left: 5%;
+}
+.other-ones{
+	border-top: 1px solid black;
+}
+.footer{
+	border: 1px solid #EEE;
+	text-align: center;
+}
+.prev-next-buttons a{
+	bottom: 0;
+}
+.tut-nav, .tut-post{
+	margin-top:2%
+}
+.tut-post{
+	border-radius: 3px;
+	border-left:1px solid #DDD;
+	border-right:1px solid #DDD;
+	border-top:1px solid #DDD;
+}
+.flex{
+	margin-top: 5%;
+	display: flex;
+}
+
+.form-signin{
+	width: 60%;
+	margin: 0 auto;
+	padding: 10%;
+}
+.signin{
+	width: 100%;
+	overflow: visible;
+}
+.form-signin > input{
+	margin-bottom: 2%;
+}
+.signin-body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}

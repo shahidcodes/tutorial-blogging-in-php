@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Welcome to Crazy World| PHP | HTML | JAVASCRIPT | PROJECT | TUTORIAL | TRAINING</title>
+	<link rel="stylesheet" type="text/css" href="includes/bootstrap.min.css">
+  <script type="text/javascript" src="includes/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="includes/app.css">  
+	<style type="text/css">
+	body{
+		background: url('images/pattern.png') repeat;
+	}
+	.container{
+		background-image: url('images/header-bg1.jpg');
+	}
+	.row{
+		background-color: rgba(69, 44, 44, 0.8);
+	}
+	.nav{
+		border-radius: 0px;
+		min-height: 30px;
+		padding: 0;	
+		background: #120606;
+		margin-bottom: 0;
+	}
+	.navbar-nav > li > a{
+		padding: 3px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-weight: bolder;
+		color:#00FF97;
+	}
+	.navbar-nav > li > a:hover{
+		background-color: white;
+		color: black; 
+	}
+	.header-row{
+		margin-top: 0px;
+	}
+	.header{
+		
+	}
+	.header-img{
+		margin-top: 1%;
+	}
+	.search{
+		color: white;
+		padding: 50px;
+		margin-left: 20%;
+		width: 50%;
+	}
+	.search >form > input.btn{
+		margin-top: 1%;
+		margin-left: 42%;
+	}
+	/*.box{
+		background-color: rgba(146, 44, 44, 0.3);
+		height: 200px;
+		-moz-box-shadow: 0px 1px 10px #000000;
+-webkit-box-shadow: 0px 1px 10px #000000;
+box-shadow: 0px 1px 10px #000000;
+	}*/
+	.box-heading{
+		font-size: 4em;
+		padding: 0.5em;
+		color: #CCFA15;
+		text-shadow: 0 0 3px black, 0 0 6px grey, 0 0 12px black;
+	}
+	.course-list{
+		padding-bottom: 2em;
+	}
+	#suggestion{
+		font-size: 2.2em;
+		color: #98D12B;
+		margin-left: 1em;
+
+	}
+	</style>
+</head>
+<body>
+<nav class="nav navbar">
+	<ul class="nav navbar-nav">
+		<li class="active"><a href="#">Home</a></li>
+		<li><a href="#">Tutorials</a></li>
+		<li><a href="#">Latest</a></li>
+	</ul>
+</nav>
+<div class="container">
+	<div class="row header-row">
+		<div class="header">
+			<img class="header-img" src="images/logo.png">
+			<div class="search">
+				<h2>So, What you want to learn today??</h2>
+				<br>
+				<form>
+					<input class="form-control" type="text" name="search" autocomplete="off">
+					<input class="btn btn-primary" type="submit" value="Search">
+				</form>
+			</div>
+		</div>
+	<p id="suggestion">We've got some suggestion for you ....</p>
+	</div><!-- /header -->
+
+	<div class="row course-list">
+		<div class="col-md-4 box">
+			<a href="#"><font class="box-heading">HTML</font></a>
+		</div>
+		<div class="col-md-4 box">
+			<a href="#"><font class="box-heading">CSS</font></a>
+		</div>
+		<div class="col-md-4 box">
+			<a href="#"><font class="box-heading">JAVASCRIPT</font></a>
+		</div>
+	</div>
+
+	<div class="row course-list">
+		<div class="col-md-4 box">
+			<a href="#"><font class="box-heading">PHP</font></a>
+		</div>
+		<div class="col-md-4 box">
+			<a href="#"><font class="box-heading">MYSQL</font></a>
+		</div>
+		<div class="col-md-4 box">
+			<a href="#"><font class="box-heading">PYTHON</font></a>
+		</div>
+	</div>
+</div>
+</nav>
+</body>
+</html>
