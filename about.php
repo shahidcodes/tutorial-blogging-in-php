@@ -19,10 +19,7 @@ require_once 'core/init.php';
 	    </div>
     <blockquote>
 	    <i>
-	    	Near Wazeerganj P.S.<br>
-	    	Wazeerganj, Kaisarbagh<br>
-	    	Lucknow,<br>
-	    	Uttar Pradesh
+	    	Address Here
 	    </i>
     </blockquote>
     </div>
@@ -34,9 +31,7 @@ require_once 'core/init.php';
     	</div>
     	<b>
     	<ul class="list-group">
-    		<li class="list-group-item">Admin: 		shahidkamal@tech2day.in</li>
-    		<li class="list-group-item">Admin2: 	shahidhelal@tech2day.in</li>
-    		<li class="list-group-item">Maintainer: shahidaman@tech2day.in</li>
+    		<li class="list-group-item">Admin: 		email@email.com</li>
     	</ul>
     	</b>
     </div>

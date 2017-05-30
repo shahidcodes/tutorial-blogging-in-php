@@ -1,9 +1,15 @@
 # Tutorial Blogging Script
 
+### Screenshots
+[logo] http://i.imgur.com/R5l5AXM.png "Home Page"
+[logo] http://i.imgur.com/PC7J3Jf.png "Tutorial Page"
+
 ## Get Started
 1- Import `blog.sql` file into your database.
 2- Edit you db credentials in `core/init.php`
-3- Run
+3- Before you run you need to edit you web path i `core/init.php` correctly to allow rewrite.
+4- When its done. Open app in your browser!
+
 
 ## Default Login
 - Edit The Default Login with Wrapper using this [https://github.com/shahidkh4n/php-login-system/blob/master/register.php](register.php)
