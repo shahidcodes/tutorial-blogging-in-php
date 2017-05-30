@@ -5,10 +5,10 @@
 <img src="http://i.imgur.com/PC7J3Jf.png" alr="Tutorial Page"> 
 
 ## Get Started
-1- Import `blog.sql` file into your database.
-2- Edit you db credentials in `core/init.php`
-3- Before you run you need to edit you web path i `core/init.php` correctly to allow rewrite.
-4- When its done. Open app in your browser!
+- Import `blog.sql` file into your database.
+- Edit you db credentials in `core/init.php`
+- Before you run you need to edit you web path i `core/init.php` correctly to allow rewrite.
+- When its done. Open app in your browser!
 
 
 ## Default Login
