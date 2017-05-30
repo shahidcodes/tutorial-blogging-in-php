@@ -1,8 +1,8 @@
 # Tutorial Blogging Script
 
 ### Screenshots
-[logo] http://i.imgur.com/R5l5AXM.png "Home Page"
-[logo] http://i.imgur.com/PC7J3Jf.png "Tutorial Page"
+<img src="http://i.imgur.com/R5l5AXM.png" alt="Home Page" /> 
+<img src="http://i.imgur.com/PC7J3Jf.png" alr="Tutorial Page"> 
 
 ## Get Started
 1- Import `blog.sql` file into your database.
