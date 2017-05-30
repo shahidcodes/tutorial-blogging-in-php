@@ -7,7 +7,7 @@
 ## Get Started
 - Import `blog.sql` file into your database.
 - Edit you db credentials in `core/init.php`
-- Before you run you need to edit you web path i `core/init.php` correctly to allow rewrite.
+- Before you run you need to edit your web path in `core/init.php` correctly to allow rewrite.
 - When its done. Open app in your browser!
 
 
